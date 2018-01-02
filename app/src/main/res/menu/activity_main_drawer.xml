@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/one" android:checkableBehavior="single">
+        <item
+            android:id="@+id/account"
+
+            android:title="Account" />
+    </group>
+
+    <group android:id="@+id/two" android:checkableBehavior="single">
+        <item
+            android:id="@+id/ringtone"
+
+            android:title="Ringtones" />
+    </group>
+
+    <group android:id="@+id/three" android:checkableBehavior="single">
+        <item
+            android:id="@+id/red_hat_concierge"
+
+            android:title="Red Hat Concierge" />
+    </group>
+
+
+        <group android:id="@+id/four" android:checkableBehavior="single">
+            <item
+                android:id="@+id/contacts"
+
+                android:title="Contacts" />
+        </group>
+
+
+
+        <group android:id="@+id/five" android:checkableBehavior="single">
+            <item
+                android:id="@+id/about"
+
+                android:title="About" />
+        </group>
+
+
+    <group android:id="@+id/six">
+
+        <item android:id="@+id/logout" android:title="Logout"/>
+    </group>
+
+
+
+</menu>
+

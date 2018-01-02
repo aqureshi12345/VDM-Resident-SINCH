@@ -1,0 +1,66 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Work Copy\\vdm-sinch-resident-LatestUI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\aqure\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\533093962e2f67635bf38021c47c544c\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,8,14,20,26,32,38,39,40,41,46,51,56,58,60,61,62,115,169",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,474,899,1327,1753,2180,2605,2694,2795,2898,3306,3726,4148,4255,4384,4455,4538,8477,12559",
+                        "endLines": "7,13,19,25,31,37,38,39,40,45,50,55,57,59,60,61,114,168,169",
+                        "endColumns": "12,12,12,12,12,12,88,100,102,12,12,12,12,12,70,82,12,12,90",
+                        "endOffsets": "469,894,1322,1748,2175,2600,2689,2790,2893,3301,3721,4143,4250,4379,4450,4533,8472,12554,12645"
+                    },
+                    "to": {
+                        "startLines": "22,28,34,40,46,52,58,59,60,61,66,71,76,78,80,81,82,135,189",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "940,1359,1784,2212,2638,3065,3490,3579,3680,3783,4191,4611,5033,5140,5269,5340,5423,9362,13444",
+                        "endLines": "27,33,39,45,51,57,58,59,60,65,70,75,77,79,80,81,134,188,189",
+                        "endColumns": "12,12,12,12,12,12,88,100,102,12,12,12,12,12,70,82,12,12,90",
+                        "endOffsets": "1354,1779,2207,2633,3060,3485,3574,3675,3778,4186,4606,5028,5135,5264,5335,5418,9357,13439,13530"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\aqure\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-appinvite-10.0.1.aar\\801a94535ce6a0c8e26902bd0c6e81b1\\res\\values-v11\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "172",
+                        "endLines": "5",
+                        "endColumns": "8",
+                        "endOffsets": "293"
+                    },
+                    "to": {
+                        "startLines": "190",
+                        "startColumns": "4",
+                        "startOffsets": "13535",
+                        "endLines": "191",
+                        "endColumns": "8",
+                        "endOffsets": "13656"
+                    }
+                },
+                {
+                    "source": "C:\\Work Copy\\vdm-sinch-resident-LatestUI\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "7,18,30,35",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "194,613,845,1068",
+                        "endLines": "17,21,33,35",
+                        "endColumns": "12,12,12,80",
+                        "endOffsets": "607,792,1060,1144"
+                    },
+                    "to": {
+                        "startLines": "2,13,17,21",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,463,644,860",
+                        "endLines": "12,16,20,21",
+                        "endColumns": "12,12,12,79",
+                        "endOffsets": "458,639,855,935"
+                    }
+                }
+            ]
+        }
+    ]
+}

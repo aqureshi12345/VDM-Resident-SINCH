@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.vdm.virtualdoorman.EditGuest"
+    >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="#A40234" >
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:id="@+id/backbutton"
+            android:layout_alignParentLeft="true">
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+
+            android:src="@drawable/a"
+            />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp"
+            android:layout_centerHorizontal="true"
+
+            android:text="Red Hat Concierge"
+            android:textColor="#FFFFFF"/>
+
+
+    </RelativeLayout>
+	
+
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="match_parent"
+
+          android:layout_below="@id/header"
+          android:gravity="center_horizontal"
+          android:orientation="vertical" >
+
+        <WebView
+            android:id="@+id/redHat"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+        />
+      </LinearLayout>
+
+
+    </RelativeLayout> 
+
+
+
+
+
+
+
+
+
+
+
+

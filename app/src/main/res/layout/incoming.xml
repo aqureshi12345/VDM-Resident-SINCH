@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="5"
+              android:background="#A40234">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:background="#A40234"
+            >
+
+
+
+        <TextView
+                android:id="@+id/callState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Incoming call"
+                android:paddingTop="80dp"
+                android:shadowDy="6"
+                android:shadowDx="6"
+                android:shadowRadius="6"
+                android:textColor="#FFFFFF"
+                android:layout_centerHorizontal="true"
+                android:textSize="30sp"
+                android:textAllCaps="true"
+                />
+        <TextView
+            android:paddingTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/remoteUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/callState"
+            android:layout_margin="14dp"
+            android:text="Sample user"
+            android:textStyle="bold"
+            android:shadowDy="6"
+            android:shadowDx="6"
+            android:shadowRadius="6"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"/>
+
+
+        <ImageView android:id="@+id/viewImage"
+
+            android:layout_below="@id/remoteUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="3"
+            android:contentDescription="Call background"
+            android:src="@drawable/icon175x175">
+
+        </ImageView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="100dp">
+        <Button
+            android:id="@+id/answerButton"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/call"
+            />
+        <!--<Button-->
+        <!--android:id="@+id/declineButton"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/button_decline"-->
+        <!--android:layout_toRightOf="@+id/answerButton"-->
+        <!--/>-->
+        <Button
+            android:id="@+id/ignoreButton"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/callend"
+
+            android:layout_toRightOf="@+id/answerButton"/>
+    </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

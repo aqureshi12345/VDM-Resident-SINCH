@@ -1,0 +1,259 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A40234"
+    tools:context="com.vdm.virtualdoorman.MainActivity" >
+
+    <!-- Header aligned to top -->
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="#A40234">
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/backbutton">
+            <ImageView
+
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:adjustViewBounds="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+
+                android:src="@drawable/a"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp"
+            android:layout_centerHorizontal="true"
+
+            android:text="Add Delivery"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:id="@+id/addbusiness_next"/>
+    </RelativeLayout>
+
+
+    <!-- Footer aligned to bottom -->
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="#FFFFFF"
+        android:layout_below="@id/header"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/prof"
+                android:paddingTop="20dp"
+                android:paddingLeft="2dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/image"
+                android:layout_centerHorizontal="true"
+
+                />
+
+            <TextView
+
+                android:id="@+id/add_pic_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/prof"
+                android:paddingTop="10dp"
+                android:text="Add photo"
+                android:textSize="9pt"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add_pic_label"
+                android:text="Company Name"
+                android:id="@+id/textView"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#636363"
+                android:textSize="17dp"
+                android:paddingLeft="2dp"
+
+                />
+
+            <EditText
+                android:id="@+id/company_name"
+                android:layout_below="@id/textView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="text"
+                android:textStyle="bold"
+                android:paddingTop="2dp"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company_name"
+                android:text="Primary Phone"
+                android:id="@+id/textView1"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#636363"
+                android:textSize="17dp"
+                android:paddingLeft="2dp"
+
+                />
+
+            <EditText
+
+                android:id="@+id/primary_phone"
+                android:layout_below="@id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="text"
+                android:textStyle="bold"
+                android:paddingTop="2dp"
+
+                />
+
+
+            <Switch
+
+                android:id="@+id/Switch"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/primary_phone"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:switchMinWidth="56dp"
+                android:text="Passcode Required"
+                android:textColor="#636363"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:checked="true"
+
+                />
+
+            <TextView
+
+                android:id="@+id/label1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/Switch"
+                android:paddingTop="5dp"
+                android:text="When you turn on passcode required, your guests will need to know the passcode to gain access to your door"
+                android:textSize="6.7pt"
+                android:textColor="#A49A9D"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/label1"
+                android:text="Secret Question(optional)"
+                android:id="@+id/question"
+                android:paddingTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#636363"
+                android:textSize="17dp"
+                android:paddingLeft="2dp"
+
+                />
+
+            <EditText
+
+                android:id="@+id/sec_question"
+                android:layout_below="@id/question"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="text"
+                android:textStyle="bold"
+                android:paddingTop="2dp"
+
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sec_question"
+                android:text="Passcode"
+                android:id="@+id/answer"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#636363"
+                android:textSize="17dp"
+                android:paddingLeft="2dp"
+
+                />
+
+            <EditText
+
+                android:id="@+id/pass_answer"
+                android:layout_below="@id/answer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="text"
+                android:textStyle="bold"
+                android:paddingTop="2dp"
+
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

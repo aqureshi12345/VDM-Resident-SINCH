@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/Play"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" >
+
+            <ImageView
+                android:id="@+id/headerImage"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/oldlogo2x" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/widget_Play"
+            android:layout_below="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="360dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:background="@drawable/framelayout_border">
+
+
+            <SurfaceView
+                android:id="@+id/Sur_Player"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#0000ff00"
+                 />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="52dp"
+            android:layout_height="33dp"
+            android:background="#D3D3D3"
+            android:text="1"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp" />
+        <Button
+            android:id="@+id/two"
+            android:layout_width="52dp"
+            android:layout_height="33dp"
+            android:background="#D3D3D3"
+            android:text="4"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp" />
+        <Button
+            android:id="@+id/three"
+            android:layout_width="52dp"
+            android:layout_height="33dp"
+            android:background="#D3D3D3"
+            android:text="9"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp" />
+        <Button
+            android:id="@+id/four"
+            android:layout_width="52dp"
+            android:layout_height="33dp"
+            android:background="#D3D3D3"
+            android:text="16"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp" />
+        <Button
+            android:id="@+id/screenshot"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:background="#D3D3D3"
+            android:text="snapshot"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/zoom"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:background="#D3D3D3"
+            android:text="Zoom-In"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:visibility="invisible"/>
+    </LinearLayout>
+    <!-- Footer aligned to bottom -->
+
+
+</RelativeLayout>

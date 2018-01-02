@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.vdm.virtualdoorman.MainActivity" >
+
+    <!-- Header aligned to top -->
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="#A40234" >
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/backbutton">
+            <ImageView
+
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:adjustViewBounds="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+
+                android:src="@drawable/a"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp"
+            android:layout_centerHorizontal="true"
+
+            android:text="Ringer Mode"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="33dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="Save"
+            android:textColor="#FFFFFF"
+            android:id="@+id/apply"/>
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Ringer Mode"
+            android:textColor="#000"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+        <RadioGroup
+            android:id="@+id/radioRinger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ring and Vibrate"
+            android:id="@+id/ringer"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000"
+            android:textSize="19dp"
+            android:buttonTint="#A40234" />
+
+        <RadioButton
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:text="Vibrate"
+            android:id="@+id/vibrator"
+            android:layout_gravity="center_horizontal"
+            android:textSize="19dp"
+            android:textColor="#000"
+            android:buttonTint="#A40234" />
+</RadioGroup>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

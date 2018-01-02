@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.vdm.virtualdoorman.MyAccount" >
+
+    <!-- Header aligned to top -->
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="#A40234" >
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/backbutton">
+            <ImageView
+
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:adjustViewBounds="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+
+                android:src="@drawable/a"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp"
+            android:layout_centerHorizontal="true"
+
+            android:text="About Virtual Doorman"
+            android:textColor="#FFFFFF"/>
+
+
+    </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+
+            android:layout_below="@id/header">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Virtual Service Company"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:id="@+id/intro_title"/>
+            <ScrollView
+                android:id="@+id/intro_content"
+                android:layout_below="@id/intro_title"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:paddingLeft="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F8F8F8"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:text="@string/VirtualServiceIntro"/>
+            </ScrollView>
+            <TextView
+                android:layout_below="@id/intro_content"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:id="@+id/difference_title"
+                android:text="What makes us Different?"
+                android:textSize="19sp"/>
+            <ScrollView
+                android:paddingLeft="5dp"
+                android:layout_below="@id/difference_title"
+                android:layout_width="match_parent"
+                android:id="@+id/difference_content"
+                android:layout_height="250dp">
+
+            <TextView
+                android:background="#F8F8F8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:text="@string/VirtualServiceDifference"/>
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+
+    <!-- Footer aligned to bottom -->
+
+
+
+
+
+</RelativeLayout>

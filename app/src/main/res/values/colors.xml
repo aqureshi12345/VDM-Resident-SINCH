@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sinch_purple">#ff63029d</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="greyish">#fff2f1f2</color>
+
+    <!--Drawer colors-->
+    <color name="colorPrimary">#A40234</color>
+    <color name="colorPrimaryDark">#A40266</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+</resources>

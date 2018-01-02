@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.vdm.virtualdoorman.EditGuest" >
+    
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+             android:id="@+id/headerImage"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+             android:adjustViewBounds="true" 
+            android:src="@drawable/oldlogo2x" />
+  
+
+</RelativeLayout>
+	
+     
+      <!-- Footer aligned to bottom -->
+       <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+    android:background="#F8F8F8">
+
+        <ImageView
+            android:id="@+id/buttonimage"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+           android:layout_centerInParent="true"
+            android:src="@drawable/vslogo" />
+    </RelativeLayout>
+	
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="match_parent"
+          android:layout_above="@id/footer"
+          android:layout_below="@id/header"
+          android:gravity="center_horizontal"
+          android:orientation="vertical" >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/username"
+             />
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/addtofavorites"
+                  android:text="Add to Favorites"
+                  />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/mobileText"
+                  android:text="Mobile"
+                  />
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/mobileNo"
+                  />
+
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/permissionText"
+                  />
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/permissionValue"
+                  />
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/secretQuestionText"
+                  android:text="Secret Question"
+                  />
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:id="@+id/secretQuestionValue"
+                  />
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/passcodeText"
+                  android:text="Passcode"
+                  />
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:id="@+id/passcodeValue"
+                  />
+          </LinearLayout>
+
+        <!--<WebView  android:id="@+id/webview"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+     android:layout_marginBottom="40dp"
+/>   -->
+      </LinearLayout>
+
+
+    </RelativeLayout> 
+
+
+
+
+
+
+
+
+
+
+
+

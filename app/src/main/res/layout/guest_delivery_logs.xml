@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="60dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/content"
+
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/footer"
+        android:layout_below="@id/header"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ListView
+            android:paddingLeft="19dp"
+            android:id="@+id/loglist"
+            android:background="#FFFFFF"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+
+
+    <!-- Footer aligned to bottom -->
+
+        <RelativeLayout
+
+            android:id="@+id/footer"
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="2dp"
+
+            android:layout_alignParentBottom="true"
+            android:background="#F8F8F8">
+
+            <ImageView
+
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:id="@+id/arrivals"
+                android:background="#F8F8F8"
+                android:layout_alignParentLeft="true"
+
+                android:src="@drawable/arrivals"/>
+
+            <ImageView
+
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:id="@+id/logs"
+                android:background="#F8F8F8"
+                android:layout_toRightOf="@id/arrivals"
+
+                android:src="@drawable/logs_s"/>
+
+            <ImageView
+
+                android:src="@drawable/building"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:id="@+id/buildings"
+                android:background="#F8F8F8"
+                android:layout_toRightOf="@id/logs"
+                />
+
+            <ImageView
+
+                android:src="@drawable/intercom"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:id="@+id/intercom"
+                android:background="#F8F8F8"
+                android:layout_toRightOf="@id/buildings"
+                />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+

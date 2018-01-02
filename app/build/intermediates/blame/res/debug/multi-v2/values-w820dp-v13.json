@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Work Copy\\vdm-sinch-resident-LatestUI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Work Copy\\vdm-sinch-resident-LatestUI\\app\\src\\main\\res\\values-w820dp\\colors.xml",
+                    "from": {
+                        "startLines": "4,3,2",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "154,107,57",
+                        "endColumns": "43,45,48",
+                        "endOffsets": "193,148,101"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,99,145",
+                        "endColumns": "43,45,48",
+                        "endOffsets": "94,140,189"
+                    }
+                },
+                {
+                    "source": "C:\\Work Copy\\vdm-sinch-resident-LatestUI\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "12,13,14,9,8,16,15",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "500,559,616,374,314,705,659",
+                        "endColumns": "57,55,41,49,58,45,44",
+                        "endOffsets": "553,610,653,419,368,746,699"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "194,252,308,350,400,459,505",
+                        "endColumns": "57,55,41,49,58,45,44",
+                        "endOffsets": "247,303,345,395,454,500,545"
+                    }
+                }
+            ]
+        }
+    ]
+}

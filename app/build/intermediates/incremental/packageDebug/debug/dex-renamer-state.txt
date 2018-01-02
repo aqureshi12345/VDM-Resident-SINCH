@@ -1,0 +1,10 @@
+#Tue Jan 02 18:45:43 YEKT 2018
+path.2=classes3.dex
+path.1=classes2.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=C\:\\Work Copy\\vdm-sinch-resident-LatestUI\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+base.1=C\:\\Work Copy\\vdm-sinch-resident-LatestUI\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+base.0=C\:\\Work Copy\\vdm-sinch-resident-LatestUI\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3

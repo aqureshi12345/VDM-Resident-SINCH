@@ -1,0 +1,92 @@
+Applications Graphics Acceleration Info:
+Uptime: 61478186 Realtime: 169265909
+
+** Graphics info for pid 13337 [com.vdm.virtualdoorman] **
+
+Recent DisplayList operations
+              DrawPatch
+              DrawRenderNode
+              RestoreToCount
+            DrawRenderNode
+            DrawRenderNode
+            DrawRenderNode
+        RestoreToCount
+    RestoreToCount
+  DrawRenderNode
+RestoreToCount
+DrawRect
+DrawPath
+DrawPatch
+DrawShadow
+Save
+DrawRenderNode
+  DrawRenderNode
+    DrawRect
+  DrawRenderNode
+    Save
+    ClipRect
+    DrawRenderNode
+      DrawRenderNode
+        Save
+        ClipRect
+        DrawRenderNode
+        DrawRenderNode
+          Translate
+          DrawRenderNode
+            DrawRenderNode
+              DrawRect
+            DrawRenderNode
+            DrawRenderNode
+              DrawRenderNode
+                DrawPath
+              Save
+              ClipRect
+              Translate
+              DrawRenderNode
+              RestoreToCount
+            DrawRenderNode
+            DrawRenderNode
+            DrawRenderNode
+        RestoreToCount
+    RestoreToCount
+  DrawRenderNode
+RestoreToCount
+DrawRect
+DrawPath
+DrawShadow
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          1439192 / 104857600
+  LayerCache                  0 / 73400320 (numLayers = 0)
+  Garbage layers              0
+  Active layers               0
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache              198592 / 33554432
+  TessellationCache        8016 /  1048576
+  TextDropShadowCache         0 /  6291456
+  PatchCache                896 /   131072
+  AssetAtlas           15745024 bytes ( 15.02 MB )
+ 
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  2695272 bytes, 2.57 MB
+
+Profile data in ms:
+
+	com.vdm.virtualdoorman/com.vdm.virtualdoorman.Login/android.view.ViewRootImpl@2b390f4d (visibility=0)
+View hierarchy:
+
+  com.vdm.virtualdoorman/com.vdm.virtualdoorman.Login/android.view.ViewRootImpl@2b390f4d
+  15 views, 27.01 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        15
+Total DisplayList:  27.01 kB
+
